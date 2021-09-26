@@ -1,0 +1,267 @@
+:root {
+    --color-neutral-white: #fff;
+    --font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --line-bg-color: rgb(223, 223, 223);
+    --bg-body: #59b2f2;
+    /* --bg-body: #00e; */
+    /* --bg-body: #09f; */
+    /* --bg-body: #1877f2; */
+    /* --bg-body: #0070f3; */
+}
+
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    background: var(--bg-body) !important;
+}
+
+.page-content {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.row-page-with {
+    width: 65rem;
+    margin: 0px auto auto;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+}
+
+.page-container .page-flex-grow {
+    display: flex;
+    flex-grow: 1;
+}
+
+.page-content-inner {
+    display: flex;
+    min-width: 0;
+    overflow-wrap: break-word;
+    position: relative;
+    flex: 7 1 0%;
+    font-family: var(--font-family);
+    padding: 2.6rem 1.2rem 3.6rem 3.6rem;
+    color: #363d49;
+    background-color: var(--color-neutral-white);
+}
+
+.page-content-aside {
+    display: flex;
+    min-width: 0;
+    overflow-wrap: break-word;
+    position: relative;
+    flex: 3 1 0%;
+    font-family: var(--font-family);
+    padding: 2.6rem 3.6rem 3.6rem 1.2rem;
+    color: #363d49;
+    background-color: var(--color-neutral-white);
+}
+
+
+.container-aside-flex {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+}
+
+.margin-bottom-item {
+    margin-bottom: 1.2rem;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.item-name-div {
+    align-items: center;
+    display: flex;
+    min-height: 40px;
+}
+
+.item-name-header {
+    padding-left: 3.4rem;
+    color: rgb(35, 35, 35);
+    margin-bottom: 1rem;
+}
+
+.item-name-header .item-name-text {
+    font-size: 23px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.icon-line-container {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    background-color: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
+}
+
+.icon-line-container img {
+
+    width: 25px;
+
+    height: 25px;
+}
+
+.item-name-bold {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-value-font {
+    /* font-size: 1.5rem; */
+    /* line-height: 2.3rem; */
+}
+
+.profile-content {
+    border-radius: 50%;
+
+    height: 150px;
+    margin-right: 1.4rem;
+
+    width: 150px;
+
+    background-color: var(--bg-body) !important;
+    color: rgb(255, 255, 255) !important;
+    background-image: url('../img/user.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: transparent !important;
+}
+
+.profile-user-name {
+    font-size: 35px;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.profile-user-professional {
+    font-size: 25px;
+
+}
+
+.item-description {
+    margin-left: 9rem;
+    padding-left: 2rem;
+}
+
+.line-cv-grey {
+    background-color: var(--line-bg-color);
+    bottom: -1.2rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: .1rem;
+}
+
+.contend-name-action {
+    align-items: center;
+    display: flex;
+    min-height: 40px;
+    color: rgb(35, 35, 35);
+    margin-bottom: 1.2rem;
+}
+
+.lefth-icons {
+    left: -1.3rem;
+}
+
+.action-name-line {
+    font-size: 23px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.ponit-bg-and-position {
+    left: -2.4rem;
+    margin-top: -.6rem;
+    position: absolute;
+}
+
+.ponit-bg-and-position div {
+    background-color: rgb(35, 35, 35);
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+}
+
+.lefth-date-position {
+    margin-left: -11rem;
+    left: 0;
+    position: absolute;
+    width: 9rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+ol,
+ul {
+    padding-left: 13px;
+}
+
+.name-expe-item {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name-expe-empres {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.ul-rating-list {
+    list-style: none;
+    display: flex;
+}
+
+.ul-rating-list li {
+    margin-left: 5px;
+}
+
+.ul-rating-list li img {
+    height: 14px;
+    width: 14px;
+}
+
+.flex-one-one {
+    flex: 1 1;
+}
+
+.margin-10-neg {
+    margin-bottom: -10px !important;
+}
+
+.date-flex-content {
+    font-size: 14px;
+    display: flex;
+}
+
+.font-weight {
+    font-weight: 500;
+}

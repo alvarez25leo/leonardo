@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+    style="min-width: 2rem; max-width: 2rem; width: 2rem; min-height: 2rem; max-height: 2rem; height: 2rem;">
+    <path
+        d="M1.6 12v.8H4V3.2H1.6v7.2h.8V12h-.8zM.8 1.6h4a.8.8 0 0 1 .8.8v11.2a.8.8 0 0 1-.8.8h-4a.8.8 0 0 1-.8-.8V2.4a.8.8 0 0 1 .8-.8zM8 4h6.4A1.6 1.6 0 0 1 16 5.6v4.8a1.6 1.6 0 0 1-1.6 1.6H8a1.6 1.6 0 0 1-1.6-1.6V5.6A1.6 1.6 0 0 1 8 4zm0 1.6v4.8h6.4V5.6H8zm1.6 7.2h3.2a.8.8 0 1 1 0 1.6H9.6a.8.8 0 1 1 0-1.6z"
+        style="fill: #fff;"></path>
+</svg>

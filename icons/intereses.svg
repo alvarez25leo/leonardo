@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+    style="min-width: 2rem; max-width: 2rem; width: 2rem; min-height: 2rem; max-height: 2rem; height: 2rem;">
+    <path
+        d="M20.316 14.398A1.2 1.2 0 0 1 20.4 12h2.4a1.2 1.2 0 1 1 0 2.4h-.066a10.801 10.801 0 0 1-21.468 0H1.2a1.2 1.2 0 1 1 0-2.4h2.4a1.2 1.2 0 0 1 .084 2.398 8.406 8.406 0 0 0 7.116 7.117V9.449A4.802 4.802 0 0 1 12 0a4.8 4.8 0 0 1 1.2 9.449v12.066a8.406 8.406 0 0 0 7.116-7.117zM12 7.2a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8z"
+        style="fill: #fff;"></path>
+</svg>
