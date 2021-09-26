@@ -2,10 +2,10 @@
     --color-neutral-white: #fff;
     --font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --line-bg-color: rgb(223, 223, 223);
-    --bg-body: #59b2f2;
+    /* --bg-body: #59b2f2; */
     /* --bg-body: #00e; */
     /* --bg-body: #09f; */
-    /* --bg-body: #1877f2; */
+    --bg-body: #1877f2;
     /* --bg-body: #0070f3; */
 }
 
