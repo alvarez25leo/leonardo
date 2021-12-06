@@ -7,6 +7,7 @@
     /* --bg-body: #09f; */
     --bg-body: #1877f2;
     /* --bg-body: #0070f3; */
+    --bg-color-items: #000;
 }
 
 
@@ -115,7 +116,7 @@ body {
     position: absolute;
     top: 0;
     width: 40px;
-    background-color: rgb(35, 35, 35);
+    background-color: var(--bg-color-items);
     color: rgb(255, 255, 255);
 }
 
@@ -138,18 +139,21 @@ body {
 
 .profile-content {
     border-radius: 50%;
-
     height: 150px;
     margin-right: 1.4rem;
-
     width: 150px;
-
-    background-color: var(--bg-body) !important;
-    color: rgb(255, 255, 255) !important;
-    background-image: url('../img/user.png') !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    border: 3px solid var(--bg-color-items);
     color: transparent !important;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.profile-content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
 }
 
 .profile-user-name {
@@ -181,7 +185,7 @@ body {
     align-items: center;
     display: flex;
     min-height: 40px;
-    color: rgb(35, 35, 35);
+    color: var(--bg-color-items);
     margin-bottom: 1.2rem;
 }
 
@@ -196,16 +200,16 @@ body {
 }
 
 .ponit-bg-and-position {
-    left: -2.4rem;
+    left: -2.3rem;
     margin-top: -.6rem;
     position: absolute;
 }
 
 .ponit-bg-and-position div {
-    background-color: rgb(35, 35, 35);
+    background-color: var(--bg-color-items);
     border-radius: 50%;
-    height: 14px;
-    width: 14px;
+    height: 10px;
+    width: 10px;
 }
 
 .lefth-date-position {
@@ -264,4 +268,9 @@ ul {
 
 .font-weight {
     font-weight: 500;
+}
+
+a {
+    color: #363d49;
+    text-decoration: none;
 }
